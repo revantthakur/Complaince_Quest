@@ -26,11 +26,11 @@ public class TestAccountTriggerHandler {
     static void testTriggerOnUpdate() {
         // Create test account with the required fields
         Account testAccount = new Account(
-            Name = 'Test Account',
+            Name = 'Test Account 2',
             Type = 'Customer - Direct',
             Active__c = true,
-            Company_Email__c = 'test@example.com',
-            Phone = '1234567890',
+            Company_Email__c = 'test2@example.com',
+            Phone = '1234567',
             Account_Activation_Summary__c = 'account is activated'
         );
         insert testAccount;
