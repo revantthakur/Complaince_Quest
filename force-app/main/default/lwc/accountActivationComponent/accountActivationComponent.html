@@ -1,0 +1,8 @@
+<template>
+    <lightning-card title="Activate Account">
+        <div class="slds-p-around_medium">
+            <lightning-input label="Account Activation Summary" value={activationSummary} onchange={handleSummaryChange} required></lightning-input>
+            <lightning-button variant="brand" label="Activate" onclick={handleActivate}></lightning-button>
+        </div>
+    </lightning-card>
+</template>
